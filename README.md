@@ -1,2 +1,2 @@
 # Asteroids
-boot.dev guided project 2
+boot.dev second guided project

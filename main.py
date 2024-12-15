@@ -9,12 +9,12 @@ def main():
     # Set up the display
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            return
-
     # Game loop
     while True:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                return
+            
         # Fill the screen with black
         screen.fill((0, 0, 0))
 
